@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime</title>
+</head>
+<body>
+    <style>
+        .lista-animes{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            font-family: sans-serif;
+        }
+        .card{
+            width: 200px;
+            margin: 20px;
+            border: 1px solid gray;
+        }
+        .card img{
+            width: 200px;
+            height: 300px;
+            object-fit: cover;
+        }
+        .card h2{
+            font-size: 20px;
+            padding: 2px;
+        }
+        .card h3{
+            font-size: 14px;
+            padding: 2px;
+        }
+        .card h4{
+            font-size: 14px;
+            padding: 2px;
+        }
+        .card p{
+            font-size: 12px;
+            padding: 2px;
+        }
+        .card a{
+            display: block;
+            background-color: darkgray;
+            width: 180px;
+            margin: 10px auto;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-align: center;
+            border-radius: 7px;
+            color: wheat;
+            text-decoration: none;
+        }
+    </style>
+    <div class="lista-animes"></div>
+    <script src="anime.js"></script>
+</body>
+</html>
